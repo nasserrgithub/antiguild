@@ -50,6 +50,7 @@ class Admin extends Component {
 	render() {
 		return (
 			<div style={{marginTop: '40px'}}>
+				Admin Login <br>
 				<input onChange={this.onUsernameChange} type="text" class="form-control" id="inputPassword" placeholder="Enter username"/>
 				<input onChange={this.onPasswordChange} type="password" class="form-control" id="inputPassword" placeholder="Enter password"/>
 				<button
