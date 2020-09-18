@@ -23,7 +23,7 @@ class Admin extends Component {
 
 
   	onLogin = () => {
-  		fetch(`${process.env.DOM}/admin`, {
+  		fetch(`${process.env.REACT_APP_URL}/admin`, {
 			method: 'post',
 			headers: {'Content-Type': 'application/json'},
 			body: JSON.stringify({
