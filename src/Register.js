@@ -57,7 +57,7 @@ class Register extends Component {
 	render() {
 		return (
 			<div>
-				<h1 style={{marginTop: '100px'}}>Welcome to Anti!</h1>
+				<h1 style={{marginTop: '100px'}}>Welcome to OMNIS!</h1>
 				<input onChange={this.onCodeChange} type="text" class="form-control" id="inputPassword" placeholder="Enter code given by Python"/>
 				<input onChange={this.onNameChange} type="text" class="form-control" id="inputPassword" placeholder="Enter your IGN"/>
 				<button
